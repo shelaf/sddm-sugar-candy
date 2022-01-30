@@ -181,6 +181,7 @@ Column {
         TextField {
             id: username
             text: config.ForceLastUser == "true" ? selectUser.currentText : null
+            font.pointSize: root.font.pointSize
             font.capitalization: config.AllowBadUsernames == "false" ? Font.Capitalize : Font.MixedCase
             anchors.centerIn: parent
             height: root.font.pointSize * 3
