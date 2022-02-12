@@ -230,6 +230,7 @@ Column {
 
         TextField {
             id: password
+            font.pointSize: root.font.pointSize
             anchors.centerIn: parent
             height: root.font.pointSize * 3
             width: parent.width
